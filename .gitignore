@@ -1,0 +1,7 @@
+# Local config file, containing access tokens and such
+config.py
+
+__pycache__/
+
+# Editor directories and files
+.vscode/*
