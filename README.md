@@ -13,6 +13,7 @@
       - TOKEN: str = "mock-token39432"
 - run app.py:
    -  python app.py
+- Follow the local server link from the terminal
 - I've used Bootstrap for a bit of styling, but there's no need for local installation as it's been imported in the base html template via CDNs
 
 ## Tasks
