@@ -14,3 +14,11 @@
 - run app.py:
    -  python app.py
 - I've used Bootstrap for a bit of styling, but there's no need for local installation as it's been imported in the base html template via CDNs
+
+## Tasks
+- [x] Fetch the number of orders which have the status=any and list the number of orders
+- [x] Fetch data for order #1028 and print the product names contained within the order (line_items contains products for the order).
+- [ ] Using data from order #1028, create a mocked Shipbob API request using their documentation for “Create Order”
+  - https://developer.shipbob.com/api-docs/#tag/Orders/paths/~11.0~1order/post
+  - [X] Only fill the required data in the JSON.
+ 
