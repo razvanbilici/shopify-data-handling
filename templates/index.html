@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CDN for *a bit* of styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    {% block head %}
+    {% endblock %}
+</head>
+
+<body style="margin: 0;">
+    <a href="/">
+        <h1 class="text-center">Orders</h1>
+    </a>
+    <hr/>
+    
+    {% block content %}
+    {% endblock %}
+
+    <div class="text-center">
+        <a href="/order-list/" class="btn btn-primary">
+            Order List
+        </a>
+
+        <a href="/order-1028/" class="btn btn-primary">
+            Order #1028
+        </a>
+
+        <br/>
+        <br/>
+
+        <a href="/shipbob-mock/" class="btn btn-danger">
+            Shipbob *Mock* POST
+        </a>
+    </div>
+    <!-- test -->
+</body>
+</html>

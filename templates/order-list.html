@@ -1,0 +1,20 @@
+{% extends 'index.html' %}
+
+{% block head %}
+    <title>Order List</title>
+{% endblock %}
+
+{% block content %}
+    <table class="table">
+        <tr>
+            <th>Order Name</th> 
+        </tr>
+        {% for order in orders %}
+            <tr>
+                <td>{{ order }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    
+    <h3>Total number of orders (status=any): {{count}}</h3>
+{% endblock %}
